@@ -23,4 +23,5 @@
     # when APACHE sever is run, CORE PHP and ZEND ENGINE are also run. when the engine is run , all the MINIT METHOD ( 'MINIT= MODULE INITIALIZATION' ) is run of those extensions , who are enabled in the extension layer. we can see the enabled extensions in the  " php.ini " directory.
 
     # a php file should have an extension of " .php " and should be located in the pablic directory or the webroot directory.
+?>
        
