@@ -67,4 +67,9 @@
 
 
 
+
+            # IF WE WNAT TO KNOW WHICH EXTENSION HAS WHICH FUNCTIONS AND CONSTAANT , WE NEED TO GO TO THE OFFICIAL PHP WEBSITE.      http://in.php.net/docs.php
+
+
+
 ?>
