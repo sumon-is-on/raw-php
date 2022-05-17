@@ -9,12 +9,14 @@
     #if we run this code the system will give the output that these numbers are integrs. but if we write any nuber above the limit range the what will the system show ?
 
     var_dump(11111111111111111111111111111111111111111111);
-    # the number will be processed as an float number.
+    # the number will be processed as an float number. this is called the   DATA OVERFLOW
+        # DATA OVERFLOW:
+            # when a number is bigger or smaller than the data type limit range is called the data overflow. 
 
 
     # we can not use comma(,) while writing thr big numbers. if we use then it will be processed as individual numbers . for example 
     var_dump(111,222,333,444);
-    
+
 
 ?>
 

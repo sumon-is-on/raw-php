@@ -14,9 +14,9 @@
         # binary ( base 2)
             # the number which has  (0b)  at the beginning is called a binary integer in php data type. for example ,0b10001, 0b11100, etc
 
-        var_dump(10);
-        var_dump(010);
-        var_dump(0x10);
-        var_dump(0b10);
+        var_dump(10); #decimal
+        var_dump(010); #octal
+        var_dump(0x10); #hexadecimal
+        var_dump(0b10); # binary. for binary we can only use 0 and 1 to write any number . if we write 3,5,7 for example, it will show error.
 
 ?>
