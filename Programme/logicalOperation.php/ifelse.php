@@ -32,3 +32,43 @@
     }
 
     // so this is how we basically do the conditional operation using the logical operator.
+
+    // let's got through the following code
+    if(true && false){
+        echo "hello \n"; // this is checking that both side have the same value or not
+    }
+    if(true || false){
+        echo "hello \n"; // this is checking that any side has the  value 
+    }
+    if(true && true){
+        echo "hello \n"; // this is checking that both side is true
+    }
+    if(false && false){
+        echo "hello \n"; // this is checking that both side is flase
+    }
+
+    // now let's do an operation to find out wheather a year is leap year or not
+        // checking a leap year we need to go through some condition
+        //  year % 4 == 0;
+        //  year % 100 == 0;
+        //  year % 400 == 0;
+
+    $year= 2001;
+    if($year % 4 == 0 && $year % 100 == 0 && $year % 400 == 0){
+        printf("%d is a leap year\n",$year);
+    }elseif($year % 4 == 0 && $year % 100 == 0){
+        printf("%d is not a leap year\n",$year); 
+    }elseif($year % 4 == 0){
+        printf("%d is a leap year\n",$year);
+    }else{
+        printf("%d is not a leap year\n",$year); 
+    }
+    // this is how we can find out wheather a year is a leap year or not. though this code is more readable and works fine, we can change it bit and can do the same operation by less statements. let's see
+
+    // $year=2000;
+    if($year % 4 == 0 && ($year % 100 != 0 || $year % 400 == 0)){
+        printf("%d is a leap year",$year);
+    }else{
+        printf("%d is not a leap year\n",$year); 
+    }
+    
