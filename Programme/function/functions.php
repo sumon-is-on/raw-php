@@ -35,8 +35,8 @@ there are two part of every function
 # let's make a function to calculate the area fo a circle.
 
 function areaOfCircle(float $radius){
-    define('pi',3.1416);
-    return constant('pi')*$radius*$radius;
+    // define('pi',3.1416);
+    return (pi()*$radius*$radius);
 }
 
 //  now we cal call the function and whenever we will call we need to pass the argument
