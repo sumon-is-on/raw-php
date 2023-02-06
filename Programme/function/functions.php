@@ -43,3 +43,10 @@ function areaOfCircle(float $radius){
 $n=33.5;
 $area=areaOfCircle($n);
 printf("%f\n",$area);
+
+
+// default parameterised 
+function defaultParamete( $food="cofee",$quantity=1){
+    printf("%d %s is served \n",$quantity,$food);
+    // called in function program
+}
