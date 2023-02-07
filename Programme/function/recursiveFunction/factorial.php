@@ -15,6 +15,7 @@ function factorial( int $n){
         4 * factorial(4-1=3) // 5*4*3
         n * factorial(n-1) //5*4*3*2
         n * factorial(n-1)//5*4*3*2*1
+        */
 
 }
 echo factorial(5);
