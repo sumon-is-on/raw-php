@@ -23,3 +23,7 @@ $student=[
     echo $encoding; # it has converted to an object , if we want to make it an associative array again 
     $encoding = json_decode($encoding,true);
     print_r($encoding);
+
+
+    # how to delete a data from an associative array? we have to use unset function and tell the key,
+    unset($student['id']);
