@@ -30,3 +30,20 @@
     # extracting some elements without modifiying the main array
 #   aray_splice()
     #extracting some elements by modifiying the main array and make the main array new. we can set a new data by array_splice() 
+
+#   array_marge()
+    # marges multiple array 
+
+
+#   sort()
+    # sorts an array but drops the kry
+#   rsort()
+    # sorts an array in reverse way but drops the kry
+#   asort()
+    # sorts an array and preserves the key
+#   arsorts()
+    # sorts the array and preserves the key but in reverse  way
+#   ksort()
+    # sorts an array by the key
+#   krsort()
+    # sorts an array by the key but in reverse way 
